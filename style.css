@@ -74,3 +74,30 @@ a{
     text-transform: uppercase;
     font-size: 14px;
 }
+
+/* hero */
+.hero{
+    background-image: url(images/hero-bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 155px 0 220px;
+}
+
+.hero .block{
+    border: 1px solid #C8A35F;
+    padding: 45px 70px;
+    text-align: center;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.hero .block h1{
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.hero .block p{
+    font-size: 18px;
+}
