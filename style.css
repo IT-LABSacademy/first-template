@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #2F343A;
+    color: #fff;
+    font-family: system-ui;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+/* top */
+.top{
+    background-color: #C8A35F;
+    padding: 16px 0;
+}
+
+.top .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.top ul li{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.top a{
+    font-size: 12px;
+}
